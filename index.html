@@ -8,6 +8,7 @@
   <title>Kyle Loertscher WDD 230</title>
   <meta name="description"
     content="Assignment portal for Kyle Loertscher in WDD 230: Web Frontend Development at Brigham Young University - Idaho. Fall semester 2020.">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -16,39 +17,40 @@
     <img src="img/Family_Picture_2020_optimized.jpg" alt="Kyle his wife Hayley and is 2 year old daughter Hazel">
   </header>
 
-  <div>
-    <h2>CIT 230: Assignment Portal</h2>
-  </div>
-  <div>
-    <ul>
-      <li>Lesson 02: <a href="#">Assignment Link</a></li>
-      <li>Lesson 03: <a href="#">Assignment Link</a></li>
-      <li>Lesson 04: <a href="#">Assignment Link</a></li>
-      <li>Lesson 05: <a href="#">Assignment Link</a></li>
-      <li>Lesson 06: <a href="#">Assignment Link</a></li>
-      <li>Lesson 07: <a href="#">Assignment Link</a></li>
-      <li>Lesson 08: <a href="#">Assignment Link</a></li>
-      <li>Lesson 09: <a href="#">Assignment Link</a></li>
-      <li>Lesson 10: <a href="#">Assignment Link</a></li>
-      <li>Lesson 11: <a href="#">Assignment Link</a></li>
-      <li>Lesson 12: <a href="#">Assignment Link</a></li>
-      <li>Lesson 13: <a href="#">Assignment Link</a></li>
-    </ul>
-  </div>
-
+  <main>
+    <div>
+      <h2>WDD 230: Assignment Portal</h2>
+    </div>
+    <div>
+      <ul>
+        <li>Lesson 02: <a href="#">Assignment Link</a></li>
+        <li>Lesson 03: <a href="#">Assignment Link</a></li>
+        <li>Lesson 04: <a href="#">Assignment Link</a></li>
+        <li>Lesson 05: <a href="#">Assignment Link</a></li>
+        <li>Lesson 06: <a href="#">Assignment Link</a></li>
+        <li>Lesson 07: <a href="#">Assignment Link</a></li>
+        <li>Lesson 08: <a href="#">Assignment Link</a></li>
+        <li>Lesson 09: <a href="#">Assignment Link</a></li>
+        <li>Lesson 10: <a href="#">Assignment Link</a></li>
+        <li>Lesson 11: <a href="#">Assignment Link</a></li>
+        <li>Lesson 12: <a href="#">Assignment Link</a></li>
+        <li>Lesson 13: <a href="#">Assignment Link</a></li>
+      </ul>
+    </div>
+  </main>
   <footer>
     <div>
-    <ul>
-      <li> &#169; 2020 </li>
-      <li>Kyle Loertscher</li>
-      <li>Utah</li>
-      <li><a href="https://www.byui.edu/online">BYUI Online Learning</a></li>
-    </ul></div>
+      <ul>
+        <li id="currentYear"></li>
+        <li>Kyle Loertscher</li>
+        <li>Utah</li>
+        <li><a href="https://www.byui.edu/online">BYUI Online Learning</a></li>
+      </ul>
+    </div>
     <div id="lastUpdated"></div>
   </footer>
+  <script src="/js/lastUpdated.js"></script>
+
 </body>
-<script>
-  document.getElementById("lastUpdated").innerHTML = "Last Updated: " + document.lastModified;
-</script>
 
 </html>

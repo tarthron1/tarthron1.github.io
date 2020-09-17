@@ -1,0 +1,42 @@
+header, footer {
+    background-color: blueviolet;
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 1000px;
+    color: orange;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    float: left;
+    font-size: 42pt;
+}
+
+img{
+    float: right;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+footer ul li{
+    float: left;
+    text-align: center;
+    padding-right: 10px;
+}
+
+#lastUpdated {
+    float: none;
+}
