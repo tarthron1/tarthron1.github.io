@@ -34,7 +34,14 @@ ul{
 footer ul li{
     float: left;
     text-align: center;
-    padding-right: 10px;
+    padding-right: 6px;
+}
+footer a:link{
+    color: yellow;
+}
+
+footer a:visited{
+    color: tomato;
 }
 
 #lastUpdated {
